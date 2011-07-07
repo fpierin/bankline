@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+	
+  		<!-- Configuração -->  	
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		
+  		<!-- Mapeamento -->  
+		<mapping class="br.each.usp.bankusp.representacoes.Administrador"/>  		
+		<mapping class="br.each.usp.bankusp.representacoes.Cliente"/>
+		<mapping class="br.each.usp.bankusp.representacoes.Conta"/>
+		<mapping class="br.each.usp.bankusp.representacoes.Lancamento"/>
+		<mapping class="br.each.usp.bankusp.representacoes.Pagamento"/>
+	</session-factory>
+</hibernate-configuration>
+
+
+		

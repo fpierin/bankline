@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes
+END
+Administrador.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Administrador.java
+END
+Taxas.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Taxas.java
+END
+Lancamento.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Lancamento.java
+END
+Cliente.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Cliente.java
+END
+Conta.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Conta.java
+END
+Emprestimo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Emprestimo.java
+END
+Rendimento.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Rendimento.java
+END
+Transferencia.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Transferencia.java
+END
+RepositorioDeTransferenciasPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/RepositorioDeTransferenciasPersistente.java
+END
+Parcela.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Parcela.java
+END
+Pagamento.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Pagamento.java
+END
+Aplicacao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Aplicacao.java
+END
+Sessao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/Sessao.java
+END
+AdministradorWeb.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/representacoes/AdministradorWeb.java
+END

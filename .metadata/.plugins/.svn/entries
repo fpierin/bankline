@@ -1,0 +1,67 @@
+10
+
+dir
+14
+http://143.107.58.177/svn/ach2106-2011-04-eq06/trunk/.metadata/.plugins
+http://143.107.58.177/svn/ach2106-2011-04-eq06
+
+
+
+2011-06-22T11:03:31.849657Z
+14
+fepierin@usp.br
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5a71058d-966b-498e-b4e0-8effb9eb2d62
+
+org.eclipse.mylyn.bugzilla.core
+dir
+
+org.eclipse.team.cvs.core
+dir
+
+org.eclipse.ui.intro
+dir
+
+org.eclipse.jdt.core
+dir
+
+org.eclipse.mylyn.tasks.ui
+dir
+
+org.eclipse.core.runtime
+dir
+
+org.eclipse.epp.usagedata.recording
+dir
+
+org.eclipse.jdt.ui
+dir
+
+org.eclipse.ui.ide
+dir
+
+org.eclipse.ui.workbench
+dir
+
+org.eclipse.core.resources
+dir
+
+com.collabnet.subversion.merge
+dir
+
+org.eclipse.egit.ui
+dir
+

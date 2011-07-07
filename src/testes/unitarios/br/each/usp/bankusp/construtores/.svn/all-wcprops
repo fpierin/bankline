@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores
+END
+UmConstrutorEstaticoDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmConstrutorEstaticoDeveria.java
+END
+UmAdministradorDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmAdministradorDeveria.java
+END
+UmLancamentoDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmLancamentoDeveria.java
+END
+UmaConstrutoraEstaticaDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmaConstrutoraEstaticaDeveria.java
+END
+UmClienteDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmClienteDeveria.java
+END
+UmaContaDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmaContaDeveria.java
+END
+UmaTransferenciaDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmaTransferenciaDeveria.java
+END
+UmPagamentoDeveria.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/testes/unitarios/br/each/usp/bankusp/construtores/UmPagamentoDeveria.java
+END

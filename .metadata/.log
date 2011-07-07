@@ -1,0 +1,10 @@
+!SESSION 2011-06-18 15:58:23.403 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /host/works/Desenvolvimento/Java/Workspace/BancoDaUSP -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2011-06-18 15:58:37.443
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.

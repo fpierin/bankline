@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes
+END
+Pagamento.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Pagamento.class
+END
+Aplicacao.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Aplicacao.class
+END
+Taxas.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Taxas.class
+END
+LancamentoDeveria.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/LancamentoDeveria.class
+END
+Lancamento.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Lancamento.class
+END
+Cliente.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Cliente.class
+END
+Emprestimo.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Emprestimo.class
+END
+Transferencia.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Transferencia.class
+END
+SessaoDeveria.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/SessaoDeveria.class
+END
+Sessao.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Sessao.class
+END
+AdministradorWeb.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/AdministradorWeb.class
+END
+Administrador.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Administrador.class
+END
+Rendimento.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Rendimento.class
+END
+ContaDeveria.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/ContaDeveria.class
+END
+Conta.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Conta.class
+END
+RepositorioDeTransferenciasPersistente.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/RepositorioDeTransferenciasPersistente.class
+END
+Parcela.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/build/classes/br/each/usp/bankusp/representacoes/Parcela.class
+END

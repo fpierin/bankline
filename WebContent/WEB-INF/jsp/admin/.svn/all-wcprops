@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin
+END
+abrirConta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/abrirConta.jsp
+END
+listarClientes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/listarClientes.jsp
+END
+listarContas.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/listarContas.jsp
+END
+cadastrarCliente.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/cadastrarCliente.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/login.jsp
+END
+editarCliente.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/editarCliente.jsp
+END
+editarConta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/editarConta.jsp
+END
+servicos.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/servicos.jsp
+END
+gerenciarTaxas.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/gerenciarTaxas.jsp
+END
+novo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/admin/novo.jsp
+END

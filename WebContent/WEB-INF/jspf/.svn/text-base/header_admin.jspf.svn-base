@@ -1,0 +1,57 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@taglib tagdir="/WEB-INF/tags" prefix="apptag" %>
+<html>
+	<head>
+		<title>BancoUSP</title>
+		<link href="<c:url value="/css/estilos_admin.css"/>" rel="stylesheet" type="text/css" media="screen" />
+		<link href="<c:url value="/javascripts/jquery.autocomplete.css"/>" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="<c:url value="/javascripts/jquery-ui-1.8.13.custom.min.js"/>"></script>				
+		<script type="text/javascript" src="<c:url value="/javascripts/jquery-1.5.1.min.js"/>"></script>
+		<script type="text/javascript" src="<c:url value="/javascripts/jquery.validate.min.js"/>"></script>
+		<script type="text/javascript" src="<c:url value="/javascripts/jquery.autocomplete.min.js"/>"></script>
+		<script type="text/javascript" src="<c:url value="/javascripts/jquery.puts.js"/>"></script>	
+		<script src="<c:url value="/javascripts/jquery.ui.core.js"/>"></script> 
+		<script src="<c:url value="/javascripts/jquery.ui.widget.js"/>"></script> 
+		<script src="<c:url value="/javascripts/jquery.ui.datepicker.js"/>"></script>
+<!-- 		 <link rel="stylesheet" href="../demos.css">  -->
+		<fmt:setLocale value="pt_br"/>
+		<c:set var="now" value="<%=new java.util.Date()%>" />
+	</head>
+	
+<body>
+	<div id="header">
+		<div width=100%>
+			<div id="logo">
+				<span class="logotipo">BancoUSP - Área gerencial</span> 
+			</div>
+			<div id="conta">
+<%-- 					<c:if test="${administradorWeb.logado}"> Seja bem vindo, <b>${administradorWeb.nome}</b> !</c:if> --%>
+					<c:if test="${empty administradorWeb or not administradorWeb.logado}"> 
+						Você não está logado. Deseja realizar <a href="<c:url value="/admin/login"/>">login</a> ?
+					</c:if>
+			</div>		
+		</div>
+	</div>
+	<div id="erros">
+		<ul>
+			<c:forEach items="${errors}" var="error">
+				<li>${error.category} - ${error.message}</li>
+			</c:forEach>
+		</ul>
+	</div>
+	<div id="body">
+		<div id="menu">
+			<ul>
+			<c:if test="${administradorWeb.logado}">
+			 	<li><a href="<c:url value="/admin/cadastrarCliente/"/>">Cadastrar cliente</a></li>
+				<li><a href="<c:url value="/admin/listarClientes/"/>">Listar clientes</a></li>
+				<li><a href="<c:url value="/admin/listarContas/"/>">Listar contas</a></li>
+				<li><a href="<c:url value="/admin/gerenciarTaxas/"/>">Taxas e rendimentos</a></li>				
+			</c:if>
+			<c:if test="${empty administradorWeb or not administradorWeb.logado}">
+				<li><a href="<c:url value="/admin/login/"/>">Login</a></li>
+			</c:if>			
+			</ul>
+		</div>
+		<div id="content">

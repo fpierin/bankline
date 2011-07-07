@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE project>
+<project name="bankline">
+	<property name="application.src.dir" 		   value="${basedir}/src"/>
+	<property name="main.src.dir" 				   value="${application.src.dir}/main/java"/>
+	<property name="testes.src.dir" 			   value="${application.src.dir}/testes"/>
+	<property name="testes.unitarios.src.dir" 	   value="${testes.src.dir}/unitarios"/>
+	<property name="testes.integracao.src.dir" 	   value="${testes.src.dir}/integracao"/>
+	<property name="target.dir" 				   value="${basedir}/target"/>
+	<property name="classes.target.dir" 		   value="${target.dir}/classes"/>
+	<property name="lib.dir" 			  	  	   value="${basedir}/lib"/>
+	<property name="application.build.dir" 	  	   value="${basedir}/build"/>
+	<property name="build.lib.dir" 			  	   value="${lib.dir}/build"/>	
+	<property name="testes.lib.dir" 			   value="${lib.dir}/testes"/>
+	<property name="webContent.dir" 			   value="${basedir}/WebContent"/>	
+	<property name="javascripts.dir" 			   value="${webContent.dir}/javascripts"/>	
+	<property name="webInf.dir"					   value="${webContent.dir}/WEB-INF"/>
+	<property name="webInf.lib.dir" 			   value="${webInf.dir}/lib"/>
+	<property name="webInf.jsp.dir" 			   value="${webInf.dir}/jsp"/>
+	<property name="webInf.jspf.dir" 			   value="${webInf.dir}/jspf"/>
+	<property name="testes.classes.target.dir" 	   value="${target.dir}/testClasses"/>
+	<property name="testes.reports.target.dir" 	   value="${target.dir}/testReports"/>
+
+	<path id="libsClasspath">
+		<fileset dir="${webInf.lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${build.lib.dir}">
+			<include name="*.jar" />			
+		</fileset>
+	</path>
+	
+	<path id="testsClasspath">
+		<path refid="libsClasspath" />
+		<pathelement location="${main.src.dir}" />
+		<pathelement location="${testes.unitarios.src.dir}" />
+		<pathelement location="${testes.classes.target.dir}" />
+		<pathelement location="${classes.target.dir}" />
+		<fileset dir="${testes.lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="clean" description="Apaga os arquivos gerados automaticamente">
+		<delete dir="${classes.target.dir}" />
+		<delete dir="${target.dir}" />
+	</target>
+
+	<target name="prepare" depends="clean" description="Cria os diretorios necessarios da aplicacao">
+		<mkdir dir="${application.build.dir}" />		
+		<mkdir dir="${classes.target.dir}" />
+		<mkdir dir="${testes.classes.target.dir}"/>
+		<mkdir dir="${testes.reports.target.dir}"/>		
+	</target>
+
+	<target name="compile" description="Compila codigo de producao" depends="prepare">
+		<javac srcdir="${main.src.dir}" destdir="${classes.target.dir}" classpathref="libsClasspath" includeantruntime="false" debug="on" />
+		<copy todir="${classes.target.dir}">
+			<fileset dir="${main.src.dir}">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+	</target>
+	
+    <macrodef name="compiler">
+    	<attribute name="name" default=""/>
+        <sequential>
+        	<echo message="Compiling classes from @{name}"/>
+    		<javac srcdir="@{name}" destdir="${testes.classes.target.dir}" classpathref="testsClasspath" includeantruntime="false" debug="on"/>		
+    		<copy todir="${testes.classes.target.dir}">
+    			<fileset dir="@{name}">
+    		    	<exclude name="**/*.java"/>
+    		    </fileset>
+    		</copy>
+        </sequential>
+    </macrodef>	
+	
+	<target name="compileTest" description="Compila codigos de teste" depends="compile">
+		<compiler name="${testes.unitarios.src.dir}"/>		
+		<compiler name="${testes.integracao.src.dir}"/>
+	</target>
+	
+	<target name="addDocType" description="Inclue gramáticas aos xmls gerados por testes">
+		<replace dir="${testes.reports.target.dir}" includes="**/*.xml">
+			<replacefilter token='?&#62;' value='?&#62;&#60;!DOCTYPE project&#62;' />			
+		</replace>
+	</target>	
+
+	<target name="unitTest" depends="compileTest" description="Executa os testes unitarios">
+		<echo message="ambiente eh ${application.environment}"/>
+		<junit fork="no" showoutput="true" haltonfailure="true" newenvironment="no">
+			<sysproperty key="application.environment" value="${application.environment}"/>
+			<classpath refid="testsClasspath"/>
+			<batchtest todir="${testes.reports.target.dir}">
+				<fileset dir="${testes.unitarios.src.dir}">
+					<include name="**/*Deveria.java"/>					
+					<include name="**/*Teste.java"/>
+					<include name="**/*Test.java"/>
+				</fileset>
+			</batchtest>
+			<formatter type="xml" />
+		</junit>
+		<antcall target="addDocType"/>
+	</target>
+	
+	<target name="integrationTest" depends="compileTest" description="Executa os teste de integracao">
+		<echo message="ambiente eh ${application.environment}"/>		
+		<junit fork="no" showoutput="true" haltonfailure="true" newenvironment="no">
+			<sysproperty key="application.environment" value="${application.environment}"/>			
+			<classpath refid="testsClasspath"/>
+			<batchtest todir="${testes.reports.target.dir}">
+				<fileset dir="${testes.integracao.src.dir}">
+					<include name="**/*Deveria.java"/>					
+					<include name="**/*Teste.java"/>
+					<include name="**/*Test.java"/>
+				</fileset>
+			</batchtest>
+			<formatter type="xml" />
+		</junit>
+		<antcall target="addDocType"/>					
+	</target>	
+	
+	<target name="build" depends="compile" description="Realiza o build da aplicacao" />
+	
+    <target name="deploy" depends="build">
+    	<war destfile="${application.build.dir}/bankline.war" webxml="${webInf.dir}/web.xml">
+			<classes dir="${classes.target.dir}"/>
+            <zipfileset dir="${javascripts.dir}" prefix="javascripts"/>
+    		<webinf dir="${webInf.dir}"/>
+        </war>
+    </target>
+	
+</project>

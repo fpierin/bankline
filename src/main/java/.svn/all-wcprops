@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java
+END
+db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/db.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/hibernate.cfg.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/log4j.xml
+END

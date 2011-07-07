@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/transferencias
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/transferencias/index.jsp
+END
+realizar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/transferencias/realizar.jsp
+END
+listar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/transferencias/listar.jsp
+END
+agendar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/WebContent/WEB-INF/jsp/transferencias/agendar.jsp
+END

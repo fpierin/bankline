@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/modelo/repositorios
+END
+RepositorioDeLancamentos.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/modelo/repositorios/RepositorioDeLancamentos.class
+END
+RepositorioDeClientes.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/modelo/repositorios/RepositorioDeClientes.class
+END
+RepositorioDeContas.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/modelo/repositorios/RepositorioDeContas.class
+END
+RepositorioDeAdministradores.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/modelo/repositorios/RepositorioDeAdministradores.class
+END
+RepositorioDePagamentos.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/modelo/repositorios/RepositorioDePagamentos.class
+END

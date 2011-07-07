@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos
+END
+PagamentosController.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/PagamentosController.java
+END
+Bankline.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/Bankline.java
+END
+CadastroController.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/CadastroController.java
+END
+AplicacoesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/AplicacoesController.java
+END
+Sobre.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/Sobre.java
+END
+ContasController.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/ContasController.java
+END
+EmprestimosController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/EmprestimosController.java
+END
+TransferenciasController.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/TransferenciasController.java
+END
+AdminController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/recursos/AdminController.java
+END

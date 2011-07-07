@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes
+END
+jmock-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/jmock-2.5.1.jar
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/commons-codec-1.3.jar
+END
+hamcrest-library-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/hamcrest-library-1.1.jar
+END
+jmock-legacy-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/jmock-legacy-2.5.1.jar
+END
+jmock-script-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/jmock-script-2.5.1.jar
+END
+hamcrest-core-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/hamcrest-core-1.1.jar
+END
+objenesis-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/objenesis-1.0.jar
+END
+jmock-junit3-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/jmock-junit3-2.5.1.jar
+END
+cglib-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/cglib-2.2.2.jar
+END
+jmock-junit4-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/jmock-junit4-2.5.1.jar
+END
+junit-4.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/junit-4.8.2.jar
+END
+jtds-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/lib/testes/jtds-1.2.2.jar
+END

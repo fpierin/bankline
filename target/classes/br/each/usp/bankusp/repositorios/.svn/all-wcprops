@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/repositorios
+END
+RepositorioDePagamentosPersistente.class
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/repositorios/RepositorioDePagamentosPersistente.class
+END
+RepositorioDeLancamentosPersistente.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/repositorios/RepositorioDeLancamentosPersistente.class
+END
+RepositorioDeClientesPersistente.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/repositorios/RepositorioDeClientesPersistente.class
+END
+RepositorioDeContasPersistente.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/repositorios/RepositorioDeContasPersistente.class
+END
+RepositorioDeAdministradoresPersistente.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/target/classes/br/each/usp/bankusp/repositorios/RepositorioDeAdministradoresPersistente.class
+END

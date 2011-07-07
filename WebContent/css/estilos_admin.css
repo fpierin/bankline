@@ -1,0 +1,187 @@
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+body {
+	background-color: #001F2E;
+}
+
+#header {
+	border-top: 1px solid gray;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px 0;
+	float:left;
+}
+
+.logotipo { 
+  color: #29A3CC; 
+  font-size: 30px; 
+}
+
+.subtopico { 
+  color: #a2948; 
+  font-size: 12px; 
+}
+
+#body {
+	border-top: 1px solid gray;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 500px;
+	padding: 10px 0;
+	float:left;
+	background-color: #8099B2;
+}
+
+#content {
+	float:left;
+	padding-left: 10px;
+	width: 80%;
+}
+
+#conta {
+	color: white;
+	font-size: 12px;
+	float: right;
+	margin-bottom: 0px;
+	-moz-border-radius: 5px;
+	padding-top: 25px;	
+	padding-right: 5px;
+}
+
+#logo {
+	font-size: 24px;
+	font-family: Verdana;
+	float: left;
+	-moz-border-radius: 5px;	
+	padding: 5px;
+}
+
+#erros {
+	width: 100%;
+	float: left;
+	background-color: #FFE4E1;
+}
+
+#footer {
+	border-top: 1px solid gray;
+	clear:both;
+	float: center;
+	color: #29A3CC;
+}
+
+#menu {
+	float:left;
+	width: 200px;
+}
+
+#menu > ul {
+	list-style: none;
+	padding-left: 5px; 
+	background-color: #00334C;
+	-moz-border-radius: 0 5px 5px 0;
+}
+#menu > ul > li {
+	border-top: 2px solid white;
+	height: 23px;
+	padding: 5px 0;
+}
+#menu > ul > li:hover {
+	background-color: #5d5c7B;
+}
+#menu > ul > li:last-child {
+	-moz-border-radius: 0 0 5px 0;
+}
+#menu > ul > li:first-child {
+	-moz-border-radius: 0 5px 0 0;
+	border-top: none;
+}
+#menu li a {
+	color: white;
+	text-decoration: none;
+}
+.link {
+	text-decoration: underline;
+	border: none;
+	background: none;
+	color: blue;
+	cursor: pointer;
+	padding:0;
+	margin:0;
+}
+
+input:FOCUS, textarea:FOCUS {
+	background-color: #e7ecf1;
+	border: 1px solid gray;
+	-moz-border-radius: 2px;
+	padding: 1px;
+}
+input, label, textarea {
+	display: block;
+}
+input.qtde {
+	display: inline;
+	width: 2em;
+}
+.hint {
+	color: gray;
+	font-size: 10pt;
+}
+label.error {
+	color:red;	
+}
+
+fieldset {
+	border:none;
+	padding: 10px;
+	width: 100%;
+	min-width: 500px;
+	border-top: 3px solid #000F1F;
+}
+
+fieldset legend {
+	-moz-border-radius: 3px;
+	font-weight: bold;
+	padding: 3px;
+	margin-bottom: 15px;
+	font-size: 16pt;
+	color: #000F1F;
+}
+
+table.extrato {
+	align: "center";
+	cellpadding: "5px";
+	cellspacing: "2px";
+	float: center;
+	width: 50%;	
+}
+
+table thead {
+	background-color: #194775;
+	color: white;
+	font-size: 11pt;
+	float: none;
+}
+
+table tbody tr:nth-child(2n+2) {
+  background:#CCD6E0;
+  font-size: 10pt;   
+}
+
+table tbody tr:nth-child(2n+1) {
+  background:#99ADC2;
+  font-size: 10pt;  
+}
+
+
+table tbody td {
+	vertical-align: text-bottom;
+	width: auto;
+	padding-left: 8px;
+	padding-right: 8px;	
+}
+
+table tfoot th {
+	background-color: #EBEFF3;
+	color: #001429;
+	font-size: 10pt;
+}

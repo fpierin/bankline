@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios
+END
+RepositorioDeAplicacoesPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeAplicacoesPersistente.java
+END
+RepositorioDeLancamentosPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeLancamentosPersistente.java
+END
+RepositorioDeClientesPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeClientesPersistente.java
+END
+RepositorioDeContasPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeContasPersistente.java
+END
+RepositorioDeEmprestimosPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeEmprestimosPersistente.java
+END
+RepositorioDeAdministradoresPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeAdministradoresPersistente.java
+END
+RepositorioDeParcelasPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDeParcelasPersistente.java
+END
+RepositorioDePagamentosPersistente.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ach2106-2011-04-eq06/!svn/ver/14/trunk/src/main/java/br/each/usp/bankusp/repositorios/RepositorioDePagamentosPersistente.java
+END

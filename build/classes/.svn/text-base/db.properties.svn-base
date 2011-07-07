@@ -1,0 +1,22 @@
+## Arquivo de configuração de acesso ao banco de dados
+
+# Desenvolvimento
+desenvolvimento.bancoDeDados.jdbcUrl=jdbc:mysql://localhost/bankline_desenvolvimento
+desenvolvimento.bancoDeDados.usuario=root
+desenvolvimento.bancoDeDados.senha=root
+desenvolvimento.hibernate.show_sql=true	
+desenvolvimento.hibernate.hbm2ddl=update
+
+# Testes
+testes.bancoDeDados.jdbcUrl=jdbc:mysql://localhost/bankline_testes
+testes.bancoDeDados.usuario=root
+testes.bancoDeDados.senha=root
+testes.hibernate.show_sql=true	
+testes.hibernate.hbm2ddl=create-drop
+
+# Producao
+producao.bancoDeDados.jdbcUrl=jdbc:mysql://localhost/bankline_producao
+producao.bancoDeDados.usuario=root
+producao.bancoDeDados.senha=root
+producao.hibernate.show_sql=true	
+producao.hibernate.hbm2ddl=update
